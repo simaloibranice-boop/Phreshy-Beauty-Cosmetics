@@ -5,6 +5,7 @@ import AdminRoute from "./components/AdminRoute";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Services from "./pages/Services";
 import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
 
           <Route
             path="shop"
